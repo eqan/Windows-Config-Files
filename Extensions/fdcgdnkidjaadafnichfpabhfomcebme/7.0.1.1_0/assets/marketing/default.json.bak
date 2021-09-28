@@ -1,0 +1,241 @@
+{
+  "interstitial": [
+    {
+      "name": "default",
+      "settings": {
+        "env": ["dev"],
+        "subscription": ["free"],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2020-08-20",
+        "hasBackArrow": false,
+        "hasHeader": true,
+        "triggerCampaignCount": 3,
+        "styles": {
+          "contentPadding": "80px 13px 20px 13px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "new-extension",
+      "conversionPoint": "extension",
+      "layout": "image",
+      "hasContent": false,
+      "image": {
+        "en": {
+          "src": "https://zenmate-extension.s3-eu-west-1.amazonaws.com/cms/imgs/full_image.png",
+          "url": "https://zenmate.com/order"
+        }
+      },
+      "content": {  }
+    },
+    {
+      "name": "default",
+      "settings": {
+        "env": ["dev","production"],
+        "subscription": ["trial"],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2020-05-20",
+        "hasBackArrow": false,
+        "hasHeader": true,
+        "triggerCampaignCount": 3,
+        "styles": {
+          "contentPadding": "80px 13px 20px 13px",
+          "ctaMarginTop": "20px"
+        }
+      },
+      "campaign": "new-extension",
+      "conversionPoint": "extension",
+      "layout": "white",
+      "content": {
+        "en": {
+          "html":  "<h1 class='campaign-heading-m'><b>Upgrade to Ultimate</b><br>and keep experiencing</h1><ul class='mt-5 features-list'> <li><span class=' mr-2'>✓</span>Over 3600 servers from 74+ countries</li><li><span class=' mr-2'>✓</span>Unblock websites & restricted apps.</li><li><span class=' mr-2'>✓</span>Bypass streaming geo-restrictions</li><li><span class=' mr-2'>✓</span>Protection for unlimited devices</li></ul>",
+          "url": "https://zenmate.com/order?utm_source=trial-interstitial&utm_medium=extension",
+          "cta":"Upgrade to Ultimate Now",
+          "subCta": null
+        }
+      }
+    }
+  ],
+  "interstitial-img-content": {
+    "name": "default",
+    "settings": {
+      "env": ["dev"],
+      "subscription": ["free"],
+      "active": false,
+      "startDate": "2020-02-20",
+      "endDate": "2020-04-20"
+    },
+    "campaign": "new-extension",
+    "conversionPoint": "extension",
+    "layout": "image",
+    "hasContent": true,
+    "image": {
+      "en": {
+        "src": "https://zenmate-extension.s3-eu-west-1.amazonaws.com/cms/imgs/halloween.png",
+        "url": "https://zenmate.com/order"
+      }
+    },
+    "content": {
+      "en": {
+        "html":  "<h1>Don’t get too scared this October </h1>\n    <p class=\"campaign-message\">We’re just SLASHING our prices, everything else stays the same </p>",
+        "url": "https://zenmate.com/order"
+      }
+    }
+  },
+  "interstitial-img-no-content": {
+    "name": "default",
+    "settings": {
+      "env": ["dev"],
+      "subscription": ["free"],
+      "active": false,
+      "startDate": "2020-02-20",
+      "endDate": "2020-04-20"
+    },
+    "campaign": "new-extension",
+    "conversionPoint": "extension",
+    "layout": "image",
+    "hasContent": false,
+    "image": {
+      "en": {
+        "src": "https://zenmate-extension.s3-eu-west-1.amazonaws.com/cms/imgs/full_image.png",
+        "url": "https://zenmate.com/order"
+      }
+    },
+    "content": {
+      "en": {
+        "html":  "<h1 class='campaign-heading'>Don’t miss on…</h1><p class='campaign-message'>This is from aws s3, consectetur adipiscing elit, sed do eiusmod!</p><ul class='mt-3 features-list'> <li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li></ul>",
+        "url": "https://zenmate.com/order"
+      }
+    }
+  },
+  "interstitial_white": {
+    "name": "default",
+    "settings": {
+      "env": ["dev"],
+      "subscription": ["free"],
+      "active": false,
+      "startDate": "2020-02-20",
+      "endDate": "2020-04-20"
+    },
+    "campaign": "new-extension",
+    "conversionPoint": "extension",
+    "layout": "white",
+    "content": {
+      "en": {
+        "html":  "<h1 class='campaign-heading'>Don’t miss on…</h1><p class='campaign-message'>This is from aws s3, consectetur adipiscing elit, sed do eiusmod!</p><ul class='mt-3 features-list'> <li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li></ul>",
+        "url": "https://zenmate.com/order"
+      }
+    }
+  },
+  "interstitial_test": {
+    "name": "default",
+    "settings": {
+      "env": ["dev"],
+      "subscription": ["free"],
+      "active": false,
+      "startDate": "2020-02-20",
+      "endDate": "2020-04-20"
+    },
+    "campaign": "new-extension",
+    "conversionPoint": "extension",
+    "layout": "test",
+    "content": {
+      "en": {
+        "html":  "<h1 class='campaign-heading'>Don’t miss on…</h1><p class='campaign-message'>This is from aws s3, consectetur adipiscing elit, sed do eiusmod!</p><ul class='mt-3 features-list'> <li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li><li><span class='material-icons mr-2'>done</span> Lorem ipsum dolor sit amet</li></ul>",
+        "url": "https://zenmate.com/order"
+      }
+    }
+  },
+  "interstitial_transparent": {
+    "name": "default",
+    "settings": {
+      "env": ["dev","production"],
+      "subscription": ["free"],
+      "active": true,
+      "startDate": "2020-02-20",
+      "endDate": "2020-05-20",
+      "hasBackArrow": false,
+      "hasHeader": false,
+      "triggerCampaignCount": 1,
+      "styles": {
+        "contentPadding": "10px 13px 20px 13px",
+        "ctaMarginTop": "20px"
+      }
+    },
+    "campaign": "new-extension",
+    "conversionPoint": "extension",
+    "layout": "transparent",
+    "content": {
+      "en": {
+        "html":  "<h1 class=\"campaign-heading-l\">Discover with <br><b>ZenMate Ultimate</b></h1> <ul class=\"mt-3 features-list\"> <li><span class=\" mr-2\">✓</span>Over 3600 servers from 74+ countries</li><li><span class=\" mr-2\">✓</span>Unblock websites & restricted apps.</li><li><span class=\" mr-2\">✓</span>Bypass streaming geo-restrictions</li><li><span class=\" mr-2\">✓</span> Unlimited number of devices</li></ul>",
+        "url": "https://zenmate.com/order?utm_source=free-interstitial&utm_medium=extension",
+        "cta":"Get ZenMate Ultimate",
+        "subCta": null
+      }
+    }
+  },
+  "homeBanner2": {
+    "name": "default",
+    "settings": {
+      "env": ["dev"],
+      "subscription": ["free"],
+      "active": false,
+      "startDate": "2020-02-20",
+      "endDate": "2020-05-20"
+    },
+    "campaign": "test",
+    "conversionPoint": "test",
+    "type": "image",
+    "content": {
+      "en": {
+        "src": "https://zenmate-extension.s3-eu-west-1.amazonaws.com/cms/imgs/Group+439.png",
+        "url": "https://zenmate.com/order"
+      }
+    }
+  },
+  "homeBanner": [
+    {
+      "name": "default",
+      "settings": {
+        "env": ["dev"],
+        "subscription": ["trial","free","ultimate"],
+        "active": true,
+        "startDate": "2020-02-20",
+        "endDate": "2020-08-20"
+      },
+      "campaign": "beta-test",
+      "conversionPoint": "beta-test",
+      "type": "text",
+      "content": {
+        "en": {
+          "description": "Enjoying the new ZenMate app? Let us know your opinion by answering our survey",
+          "cta": "Send Beta Feedback",
+          "url": "https://zenmate.com/order"
+        }
+      }
+    }
+  ],
+  "alert": [
+    {
+      "name": "default",
+      "settings": {
+        "env": ["dev", "production"],
+        "subscription": ["free","trial"],
+        "active": false,
+        "startDate": "2020-02-20",
+        "endDate": "2020-05-20"
+      },
+      "campaign": "test",
+      "conversionPoint": "test",
+      "content": {
+        "en": {
+          "title" : "Zenmate",
+          "message": "Make #StayHome more bearable with ZenMate VPN",
+          "btnText": "Go",
+          "link": "https://account.zenmate.com/order?utm_source=os-alert&utm_medium=extension"
+        }
+      }
+    }
+  ]
+}

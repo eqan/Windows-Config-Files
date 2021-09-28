@@ -1,0 +1,135 @@
+{
+  "login": {
+    "title": "Welcome!",
+    "email": "Username/Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "account_question": "Don't have an Account?",
+    "signup_here": "Sign Up here!",
+    "error": "Invalid username and/or password",
+    "errors": {
+      "invalid-credentials": "Invalid username and/or password",
+      "rate-limit": "Too many attempts, please try again later"
+    },
+    "cta": "Login"
+  },
+  "recover": {
+    "title": "Forgot Password",
+    "message": "Enter your email address that you used to sign up. We’ll send you an email with instructions on how to reset your password.",
+    "error": "Please enter a valid email address",
+    "email": "Email",
+    "back_to_login": "Back to login",
+    "cta": "Reset"
+  },
+  "recover_success": {
+    "title": "Check your inbox",
+    "description": "If the email address is registered with ZenMate VPN, you should receive your password reset link there."
+  },
+  "home": {
+    "protection_disabled": "Protection disabled",
+    "state": "ZenMate is currently turned off",
+    "last_location": "Last used location",
+    "best_location": "Best Location",
+    "connected_to": "Connected to",
+    "smart_location": "<b>Smart Location</b> is connected to <b>{{country}}</b>"
+  },
+  "menu": {
+    "account_details": "Account details",
+    "username": "Username ",
+    "end_date": "End date",
+    "trial_end_date": "Trial ends at",
+    "manage_account": "Manage Account",
+    "logout": "Logout",
+    "features": "Features",
+    "language": "Language",
+    "support": "Support",
+    "upgrade": "Upgrade to Ultimate",
+    "tour": "Quick Tour"
+  },
+  "servers": {
+    "title": "Change Location",
+    "all_countries": "All countries",
+    "streaming": "Streaming services",
+    "favorites": "Favorites",
+    "unblock_more": "Unblock More Servers with Ultimate"
+  },
+  "features": {
+    "title": "Features",
+    "smart_location": {
+      "title": "Smart Location",
+      "state_title_on": "Smart Location is ON",
+      "state_title_off": "Smart Location is OFF",
+      "state_description": "Customize how ZenMate connects to your favorite websites by automatically switching locations when you visit them!",
+      "website_url": "Website URL",
+      "change_country": "Change country",
+      "websites_added": "Websites already added"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "tracking_title": "Tracking Blocker",
+      "tracking_description": "Protect your privacy by blocking third party services from tracking online activity.",
+      "malware_title": "Malware Blocker",
+      "malware_description": "Enable blocking of malicious sites and code snippets before they can reach your browser.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect will ensure that your IP address is never revealed online."
+    }
+  },
+  "marketing_banner": {
+    "home1": "Protect all your devices – Download our ",
+    "home2": "and our ",
+    "home3": "or ",
+    "windows_app": "Windows app ",
+    "ios_app": "iOS app ",
+    "android_app": "Android app ",
+    "macos_app": "macOS app ",
+    "download_cta": "Download now",
+    "upgrade_cta": "Upgrade now"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "Customize how ZenMate connects to your favorite websites by automatically switching locations when visiting them.",
+      "cta": "Unblock Now"
+    },
+    "streaming": {
+      "text": "Binge-watch all the movies and TV shows you want, even if they're not available in your country.",
+      "cta": "Unblock Streaming"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>Welcome to ZenMate</b>",
+    "intro-default-heading": "<b>Create & verify your account</b><br /> to experience:",
+    "already-account": "Already have an account?",
+    "login-here": "Login here!",
+    "signup-now": "Sign Up Now!",
+    "seven-days": "7 days of free trial"
+  },
+  "campaign": {
+    "heading": "Discover with <br><b>ZenMate Ultimate</b>",
+    "features": {
+      "0": "Over 3600 servers from 74+ countries",
+      "1": "Unblock websites & restricted apps.",
+      "2": "Bypass streaming geo-restrictions",
+      "3": "Protection for unlimited devices"
+    },
+    "cta": "Get ZenMate Ultimate",
+    "subCta": "For only $2.22/month for a limited time",
+    "later": "Maybe later"
+  },
+  "campaign_trial": {
+    "heading": "<b>Upgrade to Ultimate</b><br> and keep experiencing",
+    "cta": "Upgrade to Ultimate Now"
+  },
+  "rateus": {
+    "heading": "Enjoy our extension?",
+    "description": "Click the stars to share your feedback"
+  },
+  "proxy-warning": {
+    "heading": "Proxy warning!",
+    "description": "Another browser extension is controlling your proxy settings, preventing <b>ZenMate</b> from working. Please disable any conflicting extension.",
+    "cta": "Manage Extensions"
+  },
+  "onboarding": {
+    "footer-title": "Click anywhere to continue",
+    "close": "Close"
+  }
+}

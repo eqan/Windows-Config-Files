@@ -1,0 +1,181 @@
+{
+  "env": {
+    "name": "DEV"
+  },
+  "api": {
+    "url": "https://beta-v2-api.zenguard.biz/v2",
+    "key": "ZMEx4hfuto83htix763jf9cz3n59f73v659f"
+  },
+  "apiv1": {
+    "url": "https://beta-api.zenguard.biz/cg",
+    "key": "ZMEx4hfuto83htix763jf9cz3n59f73v659f"
+  },
+  "blockChainRPCNode": [
+    "https://api.myetherwallet.com/rop",
+    "https://ropsten.infura.io/v3/74c324cc4f75481d817e2cfd606f703d"
+
+  ],
+  "blockchainFallback": true,
+  "accountUrl": "https://dev-account.zenmate.com/",
+  "websiteUrl": "https://dev-www.zenmate.com/",
+  "supportUrl": "https://zenguard.zendesk.com/hc/",
+  "feedbackUrl": "https://feedback.zenmate.com/v2/",
+  "domain": ".zenmate.com",
+  "availableLangs": [
+    "en",
+    "de",
+    "tr",
+    "fr",
+    "es",
+    "nl",
+    "ko",
+    "ru"
+  ],
+  "campaign": "default",
+  "triggerCampaignCount": 5,
+  "triggerRating": {
+    "free": 2,
+    "trial": 3,
+    "ultimate": 4
+  },
+  "additionalLocations": [
+    { "name": "TL",
+      "nodes": [
+        {
+          "dnsname": "blade1.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade2.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade3.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade4.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade5.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade6.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },{
+          "dnsname": "blade7.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade8.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade9.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade10.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade11.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        },
+        {
+          "dnsname": "blade12.frankfurt-rack412.nodes.gen4.ninja:9001",
+          "countrycode": "TL"
+        }
+    ]},
+    { "name": "TT",
+      "nodes": [
+        {
+          "dnsname": "blade1.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade2.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade3.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade4.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade5.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade6.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade7.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade8.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade9.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        },{
+          "dnsname": "blade10.manchester-rack401.nodes.gen4.ninja:9001",
+          "countrycode": "TT"
+        }
+    ]},
+    {
+
+      "name": "UG",
+      "nodes": [
+        {
+          "dnsname": "blade1.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade2.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade3.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade4.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade5.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade6.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade7.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade8.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade9.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade10.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade11.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        },
+        {
+          "dnsname": "blade12.amsterdam-rack407.nodes.gen4.ninja:9001",
+          "countrycode": "UG"
+        }
+      ]
+    }
+  ]
+}

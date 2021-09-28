@@ -1,0 +1,30 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "templates/popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*/chrome/newtab*" ],
+      "js": [ "js/main.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "It is a night mode for the entire Internet. It darkens all the websites you visit so that you can browse without straining your eyes",
+   "homepage_url": "https://darknightmode.com",
+   "icons": {
+      "128": "icons/icon.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl3NxMQjGoMOrmK5UvDjXcuIs1z5o7OG0kzNjdkjfNM/02PCURTokh9jQ8SDWY1vG2xVbNTNjKaLXW1MEh8VL8vw7SD5SHYtyXW4qEsO5nRd702Sh1Rqgh2I6UvqN1X3cTLNrZ8eHKmkq4oGX96HF3H7CEwbRw0r7cHj4CfQeOizz7DIG3144HREXZ3MJLN4xtAOB5AuRBUbIz1otEQSoBdFmPcSoJz7K68pNV1A3khhr15gUWJy1Th0krmwyPUDGQwPGp0+KyMQwXyEMalAsj3loa8Ff6Qbp/o3YzhF5403IB/+s2Zv8hvCr/0tnODsqoBrcfrTA1xA/62IJbLd+OQIDAQAB",
+   "manifest_version": 2,
+   "name": "Dark Night Mode",
+   "offline_enabled": true,
+   "options_page": "templates/options.html",
+   "permissions": [ "tabs", "storage", "\u003Call_urls>" ],
+   "short_name": "darknightmode",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.6",
+   "web_accessible_resources": [ "css/*.css" ]
+}

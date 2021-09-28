@@ -1,0 +1,135 @@
+{
+  "login": {
+    "title": "¡Bienvenido/a!",
+    "email": "Nombre de usuario/correo electrónico",
+    "password": "Contraseña",
+    "forgot_password": "¿Ha olvidado la contraseña?",
+    "account_question": "¿No tiene cuenta?",
+    "signup_here": "¡Regístrese aquí!",
+    "error": "Usuario y/o contraseña no válidos",
+    "errors": {
+      "invalid-credentials": "Nombre de usuario y/o contraseña no válidos",
+      "rate-limit": "Demasiadas tentativas; inténtelo de nuevo más tarde"
+    },
+    "cta": "Inicio de sesión"
+  },
+  "recover": {
+    "title": "Contraseña olvidada",
+    "message": "Indique la dirección de correo electrónico que usó al registrarse. Le enviaremos un mensaje con instrucciones para restablecer la contraseña.",
+    "error": "Escriba una dirección de correo electrónico válida",
+    "email": "Correo electrónico",
+    "back_to_login": "Volver al inicio de sesión",
+    "cta": "Restablecer"
+  },
+  "recover_success": {
+    "title": "Revise el correo",
+    "description": "Si la dirección de correo electrónico está registrada en ZenMate VPN, debería recibir allí un enlace para restablecer la contraseña."
+  },
+  "home": {
+    "protection_disabled": "Protección desactivada",
+    "state": "ZenMate está desactivado",
+    "last_location": "Última ubicación utilizada",
+    "best_location": "Mejor ubicación",
+    "connected_to": "Conectado a",
+    "smart_location": "La <b>ubicación inteligente</b> está conectada a <b>{{country}}</b>"
+  },
+  "menu": {
+    "account_details": "Datos de la cuenta",
+    "username": "Nombre de usuario ",
+    "end_date": "Fecha de finalización",
+    "trial_end_date": "La prueba termina el",
+    "manage_account": "Administrar cuenta",
+    "logout": "Cierre de sesión",
+    "features": "Funciones",
+    "language": "Lenguaje",
+    "support": "Asistencia",
+    "upgrade": "Actualizar a Ultimate",
+    "tour": "Guía Rápida"
+  },
+  "servers": {
+    "title": "Cambiar ubicación",
+    "all_countries": "Todos los países",
+    "streaming": "Servicios de streaming",
+    "favorites": "Favoritos",
+    "unblock_more": "Desbloquee más servidores con Ultimate"
+  },
+  "features": {
+    "title": "Funciones",
+    "smart_location": {
+      "title": "Ubicación inteligente",
+      "state_title_on": "La ubicación inteligente está ACTIVADA",
+      "state_title_off": "La ubicación inteligente está DESACTIVADA",
+      "state_description": "¡Personalice cómo se conecta ZenMate a sus webs favoritas cambiando de ubicación automáticamente cuando las visite!",
+      "website_url": "URL del sitio web",
+      "change_country": "Cambiar país",
+      "websites_added": "Sitios web ya añadidos"
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "tracking_title": "Bloqueador de seguimiento",
+      "tracking_description": "Proteja su privacidad bloqueando el seguimiento de su actividad en línea por parte de servicios de terceros.",
+      "malware_title": "Bloqueador de malware",
+      "malware_description": "Habilite el bloqueo de sitios maliciosos y fragmentos de código antes de que puedan llegar al navegador.",
+      "webrtc_title": "WebRTC Protect",
+      "webrtc_description": "WebRTC Protect garantiza que no se revele en línea nunca su dirección IP."
+    }
+  },
+  "marketing_banner": {
+    "home1": "Proteja cada dispositivo: descargue nuestra ",
+    "home2": "y nuestra ",
+    "home3": "o",
+    "windows_app": "aplicación Windows ",
+    "ios_app": "app iOS ",
+    "android_app": "app Android ",
+    "macos_app": "aplicación macOS ",
+    "download_cta": "Descargar ahora",
+    "upgrade_cta": "Actualizar ahora"
+  },
+  "inactive_banner": {
+    "smart_location": {
+      "text": "Personalice cómo se conecta ZenMate a sus webs favoritas cambiando de ubicación automáticamente cuando las visite.",
+      "cta": "Desbloquear ahora"
+    },
+    "streaming": {
+      "text": "Disfrute de todas las películas y series que quiera, aunque no estén disponibles en su país.",
+      "cta": "Desbloquear streaming"
+    }
+  },
+  "intro": {
+    "intro-heading": "<b>Bienvenido a ZenMate</b>",
+    "intro-default-heading": "<b>Crea tu cuenta y verifícala</b><br /> para disfrutar de:",
+    "already-account": "¿Ya tienes una cuenta?",
+    "login-here": "¡Inicia sesión aquí!",
+    "signup-now": "Regístrese ahora!",
+    "seven-days": "Prueba gratuita de 7 días"
+  },
+  "campaign": {
+    "heading": "Descubra con <br><b>ZenMate Ultimate</b>",
+    "features": {
+      "0": "Más de 3.600 servidores de más de 74 países",
+      "1": "Desbloquee sitios web y aplicaciones restringidas.",
+      "2": "Eluda restricciones geográficas al streaming",
+      "3": "Protección para un número ilimitado de dispositivos"
+    },
+    "cta": "Obtener ZenMate Ultimate",
+    "subCta": "Por solo 2,22 $/mes por tiempo limitado",
+    "later": "Quizá más adelante"
+  },
+  "campaign_trial": {
+    "heading": "<b>Actualice a Ultimate</b><br> y siga experimentando",
+    "cta": "Actualizar a Ultimate ahora"
+  },
+  "rateus": {
+    "heading": "¿Le gusta nuestra extensión?",
+    "description": "Haga clic en las estrellas para compartir su opinión"
+  },
+  "proxy-warning": {
+    "heading": "¡Advertencia del proxy!",
+    "description": "Otra extensión del explorador está controlando la configuración del proxy, lo que impide que <b>ZenMate</b> funcione. Desactive la extensión en conflicto, por favor.",
+    "cta": "Administrar extensiones"
+  },
+  "onboarding": {
+    "footer-title": "Haz clic en cualquier parte para continuar",
+    "close": "Cerrar"
+  }
+}

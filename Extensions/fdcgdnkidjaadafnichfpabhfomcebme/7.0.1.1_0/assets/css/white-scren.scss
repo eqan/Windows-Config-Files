@@ -1,0 +1,33 @@
+.white-screen {
+  //padding: 20px 0 55px 0;
+
+  text-align: center;
+
+  background-color: #ffffff;
+  margin: 1px;
+  color: $darkblue !important;
+  padding-bottom: 10px;
+  width: calc(100vw - 2px);
+  height: calc(100vh - 2px);
+  // HEADER
+  .header {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #E6F3FA;
+    padding-bottom: 20px;
+
+    .heading-text {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .nav-link {
+      color: $darkblue;
+    }
+
+  }
+}
