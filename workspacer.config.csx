@@ -14,9 +14,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static workspacer.ILayoutEngine;
-
+using workspacer;
+using workspacer.Bar;
+using workspacer.Bar.Widgets;
+using workspacer.ActionMenu;
+using workspacer.FocusIndicator;
 using System.Diagnostics;
-
 using System.Timers;
 using System.Windows.Forms;
 
@@ -438,12 +441,58 @@ public class FullTimeWidget : BarWidgetBase
 
 Action<IConfigContext> doConfig = (context) =>
 {
+        /* Variables */
+    var fontSize = 9;
+    var barHeight = 19;
+    var fontName = "Consolas";
+    var background = new Color(0x0, 0x0, 0x0);
+
+    /* Config */
+    // context.CanMinimizeWindows = true;
+
+    /* Gap */
+    // var gap = barHeight - 8;
+    // var gapPlugin = context.AddGap(new GapPluginConfig() { InnerGap = gap, OuterGap = gap / 2, Delta = gap / 2 });
+
+    /* Bar */
     context.AddBar(new BarPluginConfig()
     {
-        FontName = "Consolas",
-        RightWidgets = () => new IBarWidget[] { new FullTimeWidget(), new BatteryWidget() },
-        LeftWidgets = () => new IBarWidget[] { new workspacer.Bar.Widgets.WorkspaceWidget(), new workspacer.Bar.Widgets.ActiveLayoutWidget(), new workspacer.Bar.Widgets.TextWidget("-"), new BetterTitleWidget() }
+        FontSize = fontSize,
+        BarHeight = barHeight,
+        FontName = fontName,
+        DefaultWidgetBackground = background,
+        LeftWidgets = () => new IBarWidget[]
+        {
+            new WorkspaceWidget(), new TextWidget(": "), new TitleWidget() {
+                IsShortTitle = true
+            }
+        },
+        RightWidgets = () => new IBarWidget[]
+        {
+            new BatteryWidget(),
+            new TimeWidget(1000, "HH:mm:ss dd-MMM-yyyy"),
+            new ActiveLayoutWidget(),
+        }
     });
+    //  context.AddBar(new BarPluginConfig()
+    // {
+    //     BarTitle = "workspacer.Bar",
+    //     BarHeight = 30,
+    //     FontSize = 12,
+    //     DefaultWidgetForeground = Color.Black,
+    //     DefaultWidgetBackground = Color.White,
+    //     // BarMaxWidth = 1000,
+    //     // BarIsTop = false,
+    
+    //     // LeftWidgets = () => new IBarWidget[] { new WorkspaceWidget() { WorkspaceHasFocusColor = Color.Blue } },
+    //     RightWidgets = () => new IBarWidget[] { }
+    // });
+    // context.AddBar(new BarPluginConfig()
+    // {
+    //     FontName = "Consolas",
+    //     RightWidgets = () => new IBarWidget[] { new FullTimeWidget(), new BatteryWidget() },
+    //     LeftWidgets = () => new IBarWidget[] { new workspacer.Bar.Widgets.WorkspaceWidget(), new workspacer.Bar.Widgets.ActiveLayoutWidget(), new workspacer.Bar.Widgets.TextWidget("-"), new BetterTitleWidget() }
+    // });
 
     KeyModifiers mod = KeyModifiers.LControl;
 
@@ -487,7 +536,7 @@ Action<IConfigContext> doConfig = (context) =>
 
 
     // Set workspaces ( 1, 2, 3, 4, 5 )
-    context.WorkspaceContainer.CreateWorkspaces("1", "2", "3", "4", "5");
+    context.WorkspaceContainer.CreateWorkspaces("1", "2", "3", "4", "5", "6", "7", "8", "9");
 
     // Keyboard Shortcuts
 
