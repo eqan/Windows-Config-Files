@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "متصفح أداة"
+  },
+  "website_button": {
+    "message": "موقع زر"
+  },
+  "support": {
+    "message": "دعم"
+  },
+  "save_button": {
+    "message": "حفظ"
+  },
+  "toolbar_icons": {
+    "message": "أيقونات شريط الأدوات الكروم"
+  },
+  "options_saved": {
+    "message": "خيارات المحفوظة"
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{var e={871:e=>{e.exports={MESSAGE_TYPES:{ENABLE:"enable",PARSE:"parse",PARSED:"parsed",DISABLE:"disable",CLOSED:"closed"},buildMessage:function(e,r=null){return{type:e,content:r}}}}},r={};!function t(n){var s=r[n];if(void 0!==s)return s.exports;var o=r[n]={exports:{}};return e[n](o,o.exports,t),o.exports}(871)})();

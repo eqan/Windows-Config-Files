@@ -1,0 +1,357 @@
+:root {
+    --activeColour: rgb(0, 185, 251);
+}
+
+
+.selectextPopupWrapper {
+    width: 280px;
+    /*height: 500px;*/
+    text-align: left;
+    padding: 20px;
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+}
+
+
+.selectextLogoHeader {
+    width: 75%;
+}
+
+.selectextUserIconWrapper {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.selectextHeaderWrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.selectextSubHeader {
+    color: black;
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+
+.togglesRow {
+    display: flex;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+
+.toggleType {
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    color: black;
+}
+
+
+.selectextSwitchWrapper {
+    width: 40%;
+    text-align: right;
+}
+
+
+/*SLIDER*/
+/* The switch - the box around the slider */
+.selectextSwitch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    z-index: 10000;
+
+}
+
+
+/* Hide default HTML checkbox */
+.selectextSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked+.slider {
+    background-color: var(--activeColour);
+}
+
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--activeColour);
+}
+
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.activeColour {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--activeColour);
+    }
+
+    to {
+        box-shadow: 0 0 10px #fff, 0 0 20px var(--activeColour), 0 0 30px var(--activeColour);
+    }
+}
+
+
+.colourPanelWrapper {
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+}
+
+
+.colourPanel {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 185, 251);
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+
+.colourPanel:hover {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.03);
+}
+
+
+.colourPanelRow {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 40px;
+}
+
+
+.selectextRunOnWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.toggleTableWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.siteNameHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+    color: black;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.selectextButton {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #0000000d;
+    color: #0e0e10;
+    padding: 0 20px;
+}
+
+.selectextButton:hover {
+    background-color: #0000001a;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+input[type="radio"] {
+    /* -ms-transform: scale(1.5);
+    /* IE 9 */
+    /* -webkit-transform: scale(1.5); */
+    /* Chrome, Safari, Opera */
+    /* transform: scale(1.5);  */
+    /* align-self: flex-start; */
+    margin: 0;
+    margin-right: 10px;
+    border: 0px;
+
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    background-color: var(--activeColour)
+}
+
+.radioButtonWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.labelSubText {
+    font-weight: normal;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    font-size: 14px;
+    margin: 0;
+}
+
+.selectexth4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.upgradeButton, .tutorialButton {
+    width: 100%;
+    background-color: rgb(0, 185, 251);
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.upgradeButton:hover, .tutorialButton:hover {
+    background-color: rgb(0, 185, 251);
+    filter: brightness(85%);
+}
+
+.upgradeButtonWrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.resetsInText {
+    font-size: 12px;
+}
+
+.planTypeBox {
+    border-radius: 4px;
+    background-color: #0000000d;
+    color: #0e0e10;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.yourPlanHeader {
+    display: inline-block;
+    width: unset;
+    margin: 0;
+}
+
+.yourPlanWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.userIcon {
+    width: 35px;
+    cursor: pointer;
+}
+
+.selectextPlanWrapper {
+    margin: 0;
+    padding: 0;
+}
+
+
+.notSignedInText {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    text-align: center;
+}

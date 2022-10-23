@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Narzędzie Browser"
+  },
+  "website_button": {
+    "message": "Przycisk WWW"
+  },
+  "support": {
+    "message": "Wsparcie"
+  },
+  "save_button": {
+    "message": "Uratować"
+  },
+  "toolbar_icons": {
+    "message": "Ikony Chrome Toolbar"
+  },
+  "options_saved": {
+    "message": "Opcje Zapisano"
+  }
+}

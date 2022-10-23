@@ -1,0 +1,129 @@
+.share_hl_modal_bg {
+    display: flex;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.share_hl_modal {
+    width: fit-content;
+    overflow: scroll;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin: auto;
+    padding: 24px 32px;
+}
+
+.share_hl_modal img {
+    max-width: 480px;
+    max-height: 380px;
+    box-shadow: 0px 4px 10px rgb(0,0,0,0.3);
+}
+
+.share_hl_close_btn_wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 24px;
+    padding-bottom: 16px;
+}
+
+.share_hl_close_btn {
+    padding: 6px;
+    margin: auto;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.share_hl_close_btn:hover {
+    cursor: pointer;
+}
+
+.share_hl_close_btn img {
+    width: 18px !important;
+    height: 18px !important;
+    box-shadow: none !important;
+}
+
+.share_hl_img_wrapper {
+    width: 480px;
+    height: 380px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share_hl_color_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 12px;
+}
+
+.share_hl_bgcolor_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.share_hl_bgcolor {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px rgb(0,0,0,0.2);
+}
+
+.share_hl_bgcolor:hover {
+    cursor: pointer;
+}
+
+.share_hl_selected_bgcolor {
+    box-shadow: rgba(42, 128, 255, 0.5) 0px 0px 0px 3px;
+}
+
+.share_hl_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0 12px;
+}
+
+.orientation_selected {
+    color: #6297ff;
+    text-decoration: underline;
+}
+
+.share_hl_footer_left {
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.share_hl_footer_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share_hl_footer_right img {
+    width: 26px !important;
+    height: 26px !important;
+    box-shadow: none !important;
+    filter: grayscale(1);
+}
+
+.share_hl_footer_right img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+}

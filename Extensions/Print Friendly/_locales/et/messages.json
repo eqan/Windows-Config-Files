@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Browser tööriist"
+  },
+  "website_button": {
+    "message": "Koduleht Button"
+  },
+  "support": {
+    "message": "Toetama"
+  },
+  "save_button": {
+    "message": "Säästma"
+  },
+  "toolbar_icons": {
+    "message": "Chrome'i tööriistariba ikoonid"
+  },
+  "options_saved": {
+    "message": "Valikud salvestatud"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Tarayıcı Aracı"
+  },
+  "website_button": {
+    "message": "Web Sitesi Düğmesi"
+  },
+  "support": {
+    "message": "Destek"
+  },
+  "save_button": {
+    "message": "Kurtarmak"
+  },
+  "toolbar_icons": {
+    "message": "Chrome Araç Çubuğu Simgeleri"
+  },
+  "options_saved": {
+    "message": "Seçenekler kaydedildi"
+  }
+}

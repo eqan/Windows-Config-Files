@@ -1,0 +1,224 @@
+.highlighter--highlighted.highlighter--hovered {
+	filter: brightness(95%);
+	cursor: pointer;
+}
+
+.highlighter--highlighted:hover {
+	filter: brightness(95%);
+	cursor: pointer
+}
+
+#glasp-ui-wrapper {
+	position: fixed !important;
+	top: 0px !important;
+	left: 0px !important;
+	z-index: 99999999999 !important;
+}
+
+#glasp-tooltip-iframe {
+	min-width: 180px !important;
+	width: auto !important;
+	/* max-width: 208px !important; */
+	/* height: 46px !important; */
+	border-radius: 4px !important;
+	background: none !important;
+	background-color: transparent !important;
+	border: none !important;
+	z-index: 99999999999 !important;
+	position: relative !important;
+	display: none;
+	user-select: none;
+}
+
+#glasp_tooltip_container {
+	position: relative !important;
+    z-index: 10000 !important;
+    border: solid 1px #BBBBBB !important;
+    border-radius: 4px !important;
+    padding: 1px 7px !important;
+	background-color: #ffffff !important;
+	min-width: 164px !important;
+	width: fit-content !important;
+	/* max-width: 200px !important; */
+	height: auto !important;
+	user-select: none;
+}
+
+
+/* Generated with http://www.cssarrowplease.com/ */
+#glasp_tooltip_container:after, #glasp_tooltip_container:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#glasp_tooltip_container:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: white;
+	border-width: 10px;
+	margin-left: -10px;
+}
+#glasp_tooltip_container:before {
+	border-color: rgba(119, 119, 119, 0);
+	border-top-color: #BBBBBB;
+	border-width: 11px;
+	margin-left: -11px;
+}
+
+.glasp_color_tips {
+    height: 24px;
+    padding: 5px 0px;
+    vertical-align: middle;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+}
+
+.glasp-color-circle {
+	position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+	border-radius: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+	opacity: 1;
+	box-sizing: border-box;
+	margin: 0px 4px;
+}
+
+.glasp-color-circle:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 1px 0.5px;
+}
+
+.color_circle_highlighted {
+	float: inherit;
+	line-height: 24px;
+    width: 24px;
+	height: 24px;
+}
+
+.social_share_btn_wrapper {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.social_share_btn {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.social_share_btn:hover {
+	cursor: pointer;
+	filter: brightness(95%);
+}
+
+.social_share_btn img {
+	width: 24px !important;
+}
+
+.tooltip_option {
+	width: 24px;
+	height: 24px;
+	padding: 0px 4px;
+	cursor: pointer;
+}
+
+.tooltip_option:hover {
+	filter: brightness(103%);
+}
+
+.tooltip_option p {
+	font-size: 19px;
+	width: 24px;
+    line-height: 26px;
+	text-align: center !important;
+}
+
+.tooltip_option p:hover {
+	font-size: 20px !important;
+}
+
+.tooltip_option img {
+	width: 24px;
+}
+
+.tooltip_option img:hover {
+	width: 25px !important;
+}
+
+#tooltip_copy_highlight {
+	display: none;
+}
+
+/* 
+.tooltip_note_wrapper {
+	user-select: none;
+	margin: 3px 0px 12px;
+}
+
+.tooltip_note_title {
+	font-size: 15px;
+    line-height: 17px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.tooltip_note_content {
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 6px;
+}
+
+.tooltip_note_textarea {
+    border: none;
+	outline: none;
+	padding: 1px 2px;
+	width: 160px;
+	font-size: 14px;
+    line-height: 20px;
+    resize: none;
+    min-height: 20px;
+    text-align: left;
+    background-color: transparent;
+	vertical-align: text-bottom;
+	overflow: scroll;
+}
+
+.tooltip_note_textarea:hover {
+    outline: thin solid #BCBCBC !important;
+}
+
+.tooltip_note_footer_guide {
+    color: gray;
+    font-size: 9px;
+    height: 9px;
+    float: left;
+    position: relative;
+	bottom: -1px;
+	display: none;
+}
+
+.tooltip_note_saving {
+    height: 9px;
+    font-size: 9px;
+    float: right;
+    position: relative !important;
+    right: 7px;
+    bottom: -1px;
+    color: gray;
+	display: none;
+} */

@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Browser orodja"
+  },
+  "website_button": {
+    "message": "Spletna stran Button"
+  },
+  "support": {
+    "message": "Podpora"
+  },
+  "save_button": {
+    "message": "Shrani"
+  },
+  "toolbar_icons": {
+    "message": "Chrome Toolbar Ikone"
+  },
+  "options_saved": {
+    "message": "Možnosti Shranjeno"
+  }
+}

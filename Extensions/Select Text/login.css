@@ -1,0 +1,151 @@
+.selectextLoginWrapper, .selectextLimitWrapper {
+    z-index: 10000;
+    pointer-events: auto;
+    text-align: center;
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(153, 153, 153);
+    border-radius: 5px;
+    height: fit-content;
+    padding: 15px;
+    padding-bottom: 10px;
+
+    -webkit-touch-callout: text !important; /* iOS Safari */
+    -webkit-user-select: text !important; /* Safari */
+    -moz-user-select: text !important; /* Old versions of Firefox */
+    -ms-user-select: text !important; /* Internet Explorer/Edge */
+    user-select: text !important;
+}
+
+.selectextLimitWrapper {
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+}
+
+.selectextLimitWrapper p {
+    margin: 0;
+}
+
+.selectextLimitWrapper h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.selectextLimitWrapper button {
+    margin-top: 10px;
+}
+
+
+.selectextLoginTitle {
+    margin-bottom: 8px;
+    margin-top: 0px;
+
+}
+
+.selectextButton {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #0000000d;
+    color: #0e0e10;
+    padding: 0 20px;
+}
+
+.upgradeButton {
+    width: 300px;
+    background-color: rgb(0, 185, 251);
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.upgradeButton:hover {
+    background-color: rgb(0, 185, 251);
+    filter: brightness(85%);
+}
+
+
+@-webkit-keyframes glow {
+    from {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(0, 185, 251);
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px rgb(0, 185, 251), 0 0 15px rgb(0, 185, 251);
+    }
+}
+
+.selectextLoginWithGoogleButton {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectextLoginWithGoogleButton:hover {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.selectextLoginLogo, .selectextLimitLogo {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.selectextSmallButtonsWrapper {
+    margin-top: 10px;
+}
+
+.selectextSmallButton {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #0000000d;
+    color: #0e0e10;
+    padding: 0 10px;
+}
+
+.selectextSmallButton:hover {
+    background-color: #0000001a;
+}
+
+.selectextWhyButton {
+    margin-left: 10px;
+}
+
+.selectextHelpMessageWrapper, .selectextWhyMessageWrapper {
+    display: none;
+    white-space: pre-line;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.selectextHelpMessageWrapper > p, .selectextWhyMessageWrapper > p {
+    margin: 0px;
+}
+
+.selectextHelpMessageHeader {
+    text-align: left;
+    font-weight: bold;
+}
+
+.selectextHelpMessageWrapper {
+    text-align: left;
+}
+
+.selectextHelpMessageHeader {
+    margin-bottom: 7px;
+    text-align: center;
+    margin: 0px;
+}
+

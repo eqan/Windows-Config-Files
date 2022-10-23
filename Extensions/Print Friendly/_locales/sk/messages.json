@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Browser Tool"
+  },
+  "website_button": {
+    "message": "Website Button"
+  },
+  "support": {
+    "message": "Podpora"
+  },
+  "save_button": {
+    "message": "Uložiť"
+  },
+  "toolbar_icons": {
+    "message": "Chrome Toolbar Icons"
+  },
+  "options_saved": {
+    "message": "Možnosti Uložené"
+  }
+}

@@ -1,0 +1,164 @@
+/* toolbarContainer */
+
+#toolbarViewerMiddle, #toolbarViewerRight, #toolbarViewerLeft {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: inherit !important;
+}
+
+#splitToolbarButton {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#pageNumber {
+    background: #2c2f31 !important;
+    border: none !important;
+    color: white !important;
+    font-size: 14px !important;
+    vertical-align: middle !important;
+    padding: 4px !important;
+    background: rgba(0, 0, 0, 0.33) !important;
+    width: 24px !important;
+}
+
+#pageNumber:hover {
+    background: rgba(0, 0, 0, 0.33) !important;
+}
+
+#pageNumber:active,#pageNumber:focus {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+#numPages {
+    color: #d7d7d7 !important;
+    vertical-align: middle !important;
+    font-size: 14px !important;
+    padding-left: 0 !important;
+}
+
+.splitToolbarButtonSeparator {
+    background-color: rgb(255 255 255 / 30%) !important;
+    margin: 0 10px;
+}
+
+#zoomOut::before, #zoomIn::before {
+    filter: invert(1) !important;
+}
+
+.splitToolbarButton > .toolbarButton:hover, .splitToolbarButton > .toolbarButton:focus-visible {
+    background-color: rgb(65 65 65) !important;
+    cursor: pointer;
+    border-radius: 50% !important;
+}
+
+#scaleSelectContainer {
+    width: 88px !important;
+}
+
+.dropdownToolbarButton > select {
+    color: rgb(255 255 255) !important;
+    background-color: rgb(30 32 33) !important;
+}
+
+.dropdownToolbarButton > select:hover, .dropdownToolbarButton > select:focus-visible {
+    color: rgb(255 255 255) !important;
+    background-color: rgb(30 32 33) !important;
+}
+
+.glasp_pdf_header_action_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glasp_pdf_header_action_btn:hover {
+    background-color: rgb(65 65 65) !important;
+}
+
+.glasp_pdf_download_css {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+#sidebarContainer {
+    top: 54px !important;
+}
+
+#sidebarContent {
+    top: 0 !important;
+}
+
+.pdfSidebarNotification::after {
+    background-color: none !important;
+}
+
+/* Dropdown Menu CSS */
+
+.glasp_pdf_dropdown_menu {
+    position: absolute !important;
+    right: 2%;
+    top: 52px;
+    display: none;
+    z-index: 10000;
+    background-color: white;
+    border-radius: 4px;
+    overflow-y: hidden;
+    padding-bottom: 2px;
+    width: 260px;
+    transition: all 0.1s;
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 3px;
+}
+
+.glasp_pdf_dropdown_menu_show {
+    display: block;
+}
+
+.glasp_pdf_dropdown_menu_item {
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    user-select: none;
+    text-decoration: none;
+    color: #353535;
+}
+
+.glasp_pdf_dropdown_menu_item:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* ViewerContainer */
+
+#viewerContainer {
+    top: 54px !important;
+}
+
+/* Size Adjust Buttons */
+
+.size-adjust-btn-wrapper {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+}
+
+.size-adjust-btn {
+    width: 48px !important;
+    height: 48px !important;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background: white;
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+}

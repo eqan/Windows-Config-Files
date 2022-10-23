@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Browser Strumento"
+  },
+  "website_button": {
+    "message": "Sito Web Button"
+  },
+  "support": {
+    "message": "Sostegno"
+  },
+  "save_button": {
+    "message": "Salvare"
+  },
+  "toolbar_icons": {
+    "message": "Chrome Toolbar Icons"
+  },
+  "options_saved": {
+    "message": "Opzioni Salvato"
+  }
+}

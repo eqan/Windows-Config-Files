@@ -1,0 +1,116 @@
+body, body * {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #353535;
+}
+
+.glasp_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.main_container {
+    width: 80%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.glasp_logo {
+    width: 196px;
+    margin: auto;
+    margin-top: 12vh;
+}
+
+.glasp_logo img {
+    user-select: none;
+    width: 200px;
+}
+
+.main_text {
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main_desc {
+    margin-top: 24px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.glasp_login {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tos-pp {
+    width: 220px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.tos-pp span {
+    color: gray;
+    text-decoration: underline;
+}
+
+.tos-pp span:hover {
+    cursor: pointer;
+}
+
+.glasp_signin_btn {
+    width: fit-content;
+    height: 40px;
+    border: thin solid rgba(0, 0, 0, 0.25);
+    box-shadow: rgb(0 0 0 / 25%) 1px 1px 1px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #353535;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: 'roboto';
+    font-weight: normal;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    user-select: none;
+    outline: none !important;
+    padding: 0px 18px 0 16px;
+}
+
+.glasp_signin_btn:hover {
+    filter: brightness(97%);
+    cursor: pointer;
+}
+
+.google-company-logo  {
+    margin-right: 12px;
+}
+
+.login_footer_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_footer {
+    margin-top: 8px;
+    font-size: 14px;
+}

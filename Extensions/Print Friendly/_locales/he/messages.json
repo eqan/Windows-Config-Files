@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "כלי דפדפן"
+  },
+  "website_button": {
+    "message": "לחצן אתר"
+  },
+  "support": {
+    "message": "תמיכה"
+  },
+  "save_button": {
+    "message": "להציל"
+  },
+  "toolbar_icons": {
+    "message": "אייקוני סרגל כלים של Chrome"
+  },
+  "options_saved": {
+    "message": "אפשרויות נשמרו"
+  }
+}

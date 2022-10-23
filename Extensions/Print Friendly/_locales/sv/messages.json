@@ -1,0 +1,20 @@
+{
+  "browser_tool": {
+    "message": "Webbläsare verktyg"
+  },
+  "website_button": {
+    "message": "Hemsida knapp"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "save_button": {
+    "message": "Spara"
+  },
+  "toolbar_icons": {
+    "message": "Chrome Toolbar Icons"
+  },
+  "options_saved": {
+    "message": "Alternativ Sparade"
+  }
+}
